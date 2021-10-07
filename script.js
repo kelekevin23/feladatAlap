@@ -52,12 +52,12 @@ $(function(){
         console.log(termekek[this.id].Készlet);
         console.log(termekek[this.id].Ár);
 
-        $("#termeknev").html = termekek[this.id].Terméknév;
-        $("#leiras").html = termekek[this.id].Leírás;
-        $("#leszlet").html = termekek[this.id].Készlet;
-        $("#ar").html = termekek[this.id].Ár;
-        
+        $("#termeknev").val(termekek[this.id].Terméknév);
+        $("#leiras").val(termekek[this.id].Leírás);
+        $("#keszlet").val(termekek[this.id].Készlet);
+        $("#ar").val(termekek[this.id].Ár);
 
+        
     }
 
     
